@@ -14,7 +14,7 @@ def cem_primo():
     while count < 100:
         isprimo = 1
         for x in range(2, numero):
-            if numero % x == 0
+            if numero % x == 0:
                 isprimo = 0
                 break
         if (isprimo):
@@ -29,6 +29,36 @@ def cem_primo():
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 5000))
     app.run(host='0.0.0.0', port=port)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
